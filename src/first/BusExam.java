@@ -2,7 +2,7 @@ package first;
 
 
 public class BusExam {
-
+		
 	public static void main(String[] args) {
 		Bus bus = new Bus();
 		bus.run();
@@ -13,5 +13,5 @@ public class BusExam {
 		car.run();
 //		car.ppangppang();
 	}
-
+	
 }
