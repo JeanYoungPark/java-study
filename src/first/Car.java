@@ -6,7 +6,7 @@ public class Car {
 	int number;
 	
 	//»ı¼ºÀÚ
-	public Car(String n) {
-		name = n;
+	public Car(String name) {
+		this.name = name;
 	}
 }
