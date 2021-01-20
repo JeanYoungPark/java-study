@@ -5,7 +5,7 @@ public class Student {
 	String number;
 	int birthYear;
 	
-	
+	//메뉴 중 source에서 generate
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -31,8 +31,6 @@ public class Student {
 			return false;
 		return true;
 	}
-
-	
 	
 	@Override
 	public String toString() {
