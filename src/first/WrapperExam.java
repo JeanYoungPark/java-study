@@ -3,8 +3,12 @@ package first;
 public class WrapperExam {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int i = 5;
+		Integer i2 = new Integer(5);
+		
+		Integer i3 = 5;
+		
+		int i4 = i3;
 	}
 
 }
