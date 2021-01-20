@@ -22,7 +22,7 @@ public class StringExam2 {
 		}
 		System.out.println(str5);
 		
-		//O : new를 사용해 계속하여 객체를 호출하는 것도 부하문제 생길 수 있음
+		//O : new를 사용해 계속하여 객체를 호출하는 것도 부하문제 생길 수 있음(시간도 오래걸림)
 		StringBuffer sb = new StringBuffer();
 		for(int i = 0; i < 100; i++ ) {
 			sb.append("*");
