@@ -1,0 +1,19 @@
+package first;
+
+public class ThreadA {
+	public static void main(String[] args) {
+		ThreadB b = new ThreadB();
+		b.start();
+		
+		synchronized (b) {
+			try {
+				System.out.println("b가 완료될때까지 기다립니다.");
+				//기다려라
+				b.wait();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			System.out.println("Total : "+b.total);
+		}
+	}
+}
