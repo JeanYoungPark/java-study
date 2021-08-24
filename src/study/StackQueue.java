@@ -24,7 +24,7 @@ public class StackQueue {
 
         System.out.println("= Queue =");
         while (!q.isEmpty()) {
-            System.out.println(q.poll()); //객첼ㄹ 꺼내서 반환 비어있으면 null
+            System.out.println(q.poll()); //객체를 꺼내서 반환 비어있으면 null
         }
     }
 }
